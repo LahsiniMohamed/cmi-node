@@ -5,8 +5,6 @@ export class CmiClient extends BaseCmiClient {
     /**
      * GENERATE HASH
      */
-    this.generateHash();
-
     /**
      * HANDLE REQUIRE OPTIONS HIDDEN INPUTS AND REDIRECT TO CMI PAGE
      * CREATE INPUTS HIDDEN, GENERATE A VALID HASH AND MAKE REDIRECT POST TO CMI
